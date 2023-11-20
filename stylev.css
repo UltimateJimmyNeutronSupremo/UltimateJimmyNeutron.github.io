@@ -1,0 +1,110 @@
+/* Reset e estilos básicos */
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #1f1f1f;
+    background-color: rgb(218, 231, 243);
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos do navbar */
+  .navbarra {
+    background-color: rgb(159, 202, 240);
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbarra ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .navbarra a {
+    text-decoration: none;
+    color: #1f1f1f;
+    font-weight: bold;
+  }
+  
+  /* Estilos do video-container */
+  #video-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  #ytvid {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  #player {
+    border-radius: 8px;
+  }
+  
+  #titulovid {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Estilos do complementos-container */
+  #complementos-container {
+    background-color: rgb(159, 202, 240);
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  #complementos-container h4#complementos {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  #complementos-container span#complementos {
+    font-size: 16px;
+    display: block;
+  }
+  
+  #complementos-ads {
+    color: rgb(117, 117, 245);
+  }
+  
+  /* Estilos do extras */
+  #extras {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  #extras h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #extras p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Footer styles */
+  #footercustom {
+    margin-top: 20px;
+    background-color: rgb(159, 202, 240);
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
